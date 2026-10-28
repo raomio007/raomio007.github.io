@@ -17,6 +17,8 @@ const VIDEOS = [
   { cat: "local", title: "Local client 1", url: "https://drive.google.com/file/d/1PQ-E5zyFq6XL4ejIWu-hs9fY9v9yPKYw/view" },
   { cat: "local", title: "Local client 2", url: "https://drive.google.com/file/d/1bxjrePVs7vAdruxivac2zPjj86J_YXNV/view" },
   { cat: "local", title: "Local client 3", url: "https://drive.google.com/file/d/1vPMjJGQAPTfIkdBiuB7g9KCJ4fP2Dc_I/view" },
+  { cat: "short", title: "Short video 4", label: "Short form", url: "https://drive.google.com/file/d/1uEgPFLfnCKC3Lj1A7P-jEmli17KulNa6/view" },
+  { cat: "short", title: "Short video 5", label: "Short form", url: "https://drive.google.com/file/d/1G1KwWTG54Fw7bsggtSLRqiwcTbelniFH/view" },
   { cat: "short", title: "Short video 1", label: "Short form", url: "https://drive.google.com/file/d/10GJ-bI2KORyXrJtDOz8JDAEfTALFOcof/view" },
   // { cat: "long", title: "Video title", label: "Client / type", url: "https://www.youtube.com/watch?v=XXXXXXXXXXX" },
 ];
