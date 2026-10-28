@@ -4,6 +4,7 @@ const SOCIALS = [
   { label: "Instagram", url: "https://www.instagram.com/omio_s_tudio" },
   { label: "Facebook", url: "https://www.facebook.com/share/19sqACyyZp/" },
   { label: "LinkedIn", url: "https://www.linkedin.com/in/rubaiet-ahmed-omio-3a3b49198/" },
+  { label: "WhatsApp", url: "https://wa.me/qr/HHIMOSEEY37MD1" },
 ];
 
 // cat: "long" | "short" | "local". url: YouTube (watch / youtu.be / shorts) or Instagram reel/post link.
