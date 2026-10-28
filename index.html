@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubaiet Ahmed Omio | Video Editor</title>
+<meta name="description" content="Portfolio of Rubaiet Ahmed Omio, video editor: long form, short form and local client work.">
+<meta property="og:title" content="Rubaiet Ahmed Omio | Video Editor">
+<meta property="og:description" content="Long form, short form and local client video editing.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Pixelify+Sans:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="#contact">Contact</a>
+  <div class="dots"></div>
+</nav>
+
+<section id="home">
+  <div class="hero-stickers"><span class="sticker">video editor</span><span class="sticker b">premiere pro</span><span class="sticker c">after effects</span></div>
+  <div class="name-box" id="nameBtn" role="button" tabindex="0" aria-label="Watch my main reel">
+    <i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+    <h1 class="pixel">RUBAIET AHMED OMIO</h1>
+    <span class="name-hint hand">▶ psst… tap my name to watch my main reel</span>
+  </div>
+  <p class="pitch">I edit videos that <b>keep people watching</b>.</p>
+  <a class="btn" href="#contact">Contact me</a>
+  <div class="folders">
+    <a class="folder-tab f-long" href="#g-long"><small>PROJECTS</small><strong>Long Form</strong></a>
+    <a class="folder-tab f-short" href="#g-short"><small>PROJECTS</small><strong>Short Form</strong></a>
+    <a class="folder-tab f-local" href="#g-local"><small>PROJECTS</small><strong>Local Client</strong></a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-wrap">
+    <figure class="polaroid">
+      <span class="tape"></span>
+      <img id="photo" class="photo" src="photo.webp" alt="Rubaiet Ahmed Omio">
+      <figcaption>that's me</figcaption>
+    </figure>
+    <div class="about-copy">
+      <h2 class="pixel">ABOUT</h2>
+      <p class="lead">I'm a video editor who turns raw footage into videos people finish.</p>
+      <p><b>What I do.</b> Long form YouTube edits, short form reels and local client videos, from cutting and pacing to motion graphics and sound.</p>
+      <p><b>How I work.</b> Premiere Pro and After Effects, clear briefs, clean feedback rounds and files delivered on time.</p>
+      <p><b>Let's work.</b> Have a project? Send me the idea and I'll tell you how I'd cut it. [CONFIRM: edit this copy]</p>
+      <div class="skills"><span class="sticker">Premiere Pro</span><span class="sticker b">After Effects</span><span class="sticker c">Motion graphics</span><span class="sticker d">Sound design</span></div>
+      <div class="socials"></div>
+    </div>
+    <figure class="reel" id="reel">
+      <span class="sticker d">main reel</span>
+      <div class="reel-frame" id="reelFrame"><button class="btn" id="reelPlay">▶ Watch my main reel</button></div>
+    </figure>
+  </div>
+</section>
+
+<section id="work">
+  <div class="work-head">
+    <h2 class="pixel">MY WORK</h2>
+    <p>tap any video to watch</p>
+  </div>
+  <div id="groups"></div>
+  <div class="contact" id="contact">
+    <h2 class="pixel">LET'S TALK</h2>
+    <div class="smiley">☺</div>
+    <p class="hand" style="font-size:24px">Got a project? Send me a message.</p>
+    <div class="socials"></div>
+  </div>
+</section>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true">
+  <div class="modal-box"><button class="close" aria-label="Close">✕</button><div class="frame"></div></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
